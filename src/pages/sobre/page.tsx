@@ -308,7 +308,7 @@ export default function Sobre() {
               <p className="text-lg font-semibold">
                 "Mais do que uma secretaria, a SEMJU é um movimento de juventude viva e atuante, 
                 que acredita na potência da Amazônia e no poder dos jovens para moldar um futuro 
-                mais verde, justo e solidário."
+                mais justo, inclusivo e sustentável."
               </p>
             </div>
           </div>
@@ -325,21 +325,21 @@ export default function Sobre() {
                 <i className="ri-map-pin-line text-white text-2xl"></i>
               </div>
               <h3 className="text-lg font-bold text-[#1E1E1E] mb-2">Endereço</h3>
-              <p className="text-gray-600">Rua Principal, 123<br />Centro, Oriximiná - PA</p>
+              <p className="text-gray-600">Rua Barão do Rio Branco, 2336<br />Centro, Oriximiná - PA</p>
             </div>
             <div className="text-center bg-white rounded-xl p-6 shadow-lg border border-green-100">
               <div className="w-16 h-16 bg-[#16A34A] rounded-full flex items-center justify-center mb-4 mx-auto">
                 <i className="ri-phone-line text-white text-2xl"></i>
               </div>
               <h3 className="text-lg font-bold text-[#1E1E1E] mb-2">Telefone</h3>
-              <p className="text-gray-600">(93) 3533-1234<br />semju@oriximina.pa.gov.br</p>
+              <p className="text-gray-600">(93) 99221-1254<br />semju.oriximina@gmail.com</p>
             </div>
             <div className="text-center bg-white rounded-xl p-6 shadow-lg border border-green-100">
               <div className="w-16 h-16 bg-[#16A34A] rounded-full flex items-center justify-center mb-4 mx-auto">
                 <i className="ri-time-line text-white text-2xl"></i>
               </div>
               <h3 className="text-lg font-bold text-[#1E1E1E] mb-2">Horário</h3>
-              <p className="text-gray-600">Segunda a Sexta<br />8h às 17h</p>
+              <p className="text-gray-600">Segunda a Sexta<br />8h às 14h</p>
             </div>
           </div>
         </div>

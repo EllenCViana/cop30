@@ -3,7 +3,7 @@ import Header from '../../../components/feature/Header';
 import Footer from '../../../components/feature/Footer';
 import Button from '../../../components/base/Button';
 
-export default function WaiWaiTapota() {
+export default function Wai() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#F5F8F4] to-[#FFF8E7]">
       <Header />
@@ -18,10 +18,10 @@ export default function WaiWaiTapota() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              Wai Wai Tapota
+              Wai
             </h1>
             <p className="text-2xl text-white/90 mb-8 leading-relaxed">
-              Wai Wai Tapota: preservando a língua, fortalecendo a identidade
+Educação, tecnologia e inclusão linguística por meio da gamificação
             </p>
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30">
               <p className="text-white text-lg leading-relaxed">
@@ -41,24 +41,27 @@ export default function WaiWaiTapota() {
               <h2 className="text-3xl font-bold text-[#0E4D2B] mb-6">Sobre o Projeto</h2>
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
                 <p>
-                  O Projeto Wai Wai Tapota nasceu com o propósito de preservar e revitalizar a língua Wai Wai, 
-                  pertencente ao tronco Karib e falada por comunidades indígenas do norte do Pará e leste de Roraima. 
-                  Mais do que um projeto linguístico, ele representa um movimento de resistência cultural e valorização
-                   da identidade indígena, aproximando saberes tradicionais das novas gerações e do universo tecnológico.
+                  O Wai é um jogo educativo e cultural criado com o propósito de fortalecer a inclusão
+                  social e linguística da comunidade indígena Wai Wai, localizada em Oriximiná, no Pará.
+                  A iniciativa funciona como uma ferramenta de apoio à adaptação dos indígenas à vida urbana,
+                  oferecendo informações práticas e ensinamentos de língua portuguesa de forma interativa e
+                  acessível. Por meio da tecnologia, o projeto busca reduzir barreiras de comunicação e
+                  ampliar as oportunidades de integração dos Wai Wai na sociedade, promovendo autonomia
+                  e valorizando sua identidade cultural.
                 </p>
                 <p>
-                  Por meio da criação de um repositório digital bilíngue, o projeto reúne e difunde conhecimentos
-                   sobre a língua e a cultura Wai Wai, oferecendo também materiais didáticos em português e Wai Wai 
-                   para o uso em escolas e espaços comunitários. Além disso, o desenvolvimento de um aplicativo de
-                    dicionário interativo permite o aprendizado dinâmico da língua, conectando falantes, estudantes 
-                    e pesquisadores de forma acessível e moderna.
+                  No jogo, o jogador acompanha a história de Kesemani, um personagem indígena que se muda da aldeia
+                  para a cidade e enfrenta desafios de convivência e comunicação em ambientes urbanos. Através de diálogos,
+                  quizzes e missões, o usuário aprende expressões e vocabulários do português, simulando situações cotidianas
+                  em locais como mercados, escolas e repartições públicas. Essa abordagem lúdica e contextual torna o aprendizado
+                  mais acessível e significativo, especialmente para quem está em transição cultural.
                 </p>
                 <p>
-                  O Wai Wai Tapota ultrapassa o campo do ensino formal e alcança o espaço público, tornando
-                   a língua visível nas ruas de Oriximiná através de placas bilíngues em praças e locais públicos.
-                    Essa ação simbólica e educativa promove o reconhecimento da presença indígena no cenário urbano, 
-                    estimulando a interculturalidade e o respeito à diversidade linguística como pilares de uma 
-                    sociedade mais justa e plural.
+                  Mais do que um jogo, o Wai representa uma ponte entre culturas — unindo o conhecimento ancestral dos povos 
+                  indígenas à tecnologia moderna. O projeto reforça o respeito à diversidade linguística e cultural da Amazônia,
+                  valorizando a identidade dos Wai Wai enquanto promove sua autonomia fora da aldeia. Dessa forma, a iniciativa 
+                  se consolida como um exemplo inspirador de como o design, a educação e a tecnologia podem caminhar juntos para 
+                  gerar transformação social.
                 </p>
               </div>
 

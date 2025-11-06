@@ -6,15 +6,9 @@ import { motion } from 'framer-motion';
 export default function Projetos() {
   const projects = [
     {
-      title: "Ciência na Praça",
-      description: "Conhecer para conservar — projeto que leva ciência e educação ambiental para as comunidades, promovendo a conservação da Amazônia através do conhecimento científico e participação popular.",
-      href: "/projetos/ciencia-na-praca",
-      backgroundImage: "https://readdy.ai/api/search-image?query=Young%20scientists%20conducting%20environmental%20research%20in%20Amazon%20rainforest%20community%20setting%2C%20microscopes%20and%20scientific%20equipment%20outdoors%2C%20indigenous%20and%20local%20people%20learning%20together%2C%20bright%20natural%20lighting%2C%20educational%20atmosphere%2C%20lush%20green%20tropical%20vegetation%20background%2C%20community%20engagement%20in%20science&width=400&height=300&seq=ciencia-praca-card&orientation=landscape"
-    },
-    {
       title: "Wai (Game)",
       description: "Revitalizando a língua e cultura indígena — preservação e fortalecimento da cultura Wai Wai através de ações educativas, culturais e tecnológicas inovadoras para as futuras gerações.",
-      href: "/projetos/wai-wai-tapota",
+      href: "/projetos/wai",
       backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape"
     },
     {
@@ -28,7 +22,19 @@ export default function Projetos() {
       description: "Blockchain para rastreabilidade do cumaru — inovação tecnológica para garantir a sustentabilidade, origem e qualidade dos produtos amazônicos no mercado global.",
       href: "/projetos/cumatrack",
       backgroundImage: "https://readdy.ai/api/search-image?query=Amazon%20cumaru%20seeds%20and%20products%20with%20digital%20blockchain%20technology%20overlay%2C%20sustainable%20harvesting%20in%20tropical%20forest%2C%20modern%20technology%20tracking%20natural%20products%2C%20QR%20codes%20and%20digital%20interfaces%2C%20eco-friendly%20packaging%2C%20green%20technology%20innovation%2C%20forest%20conservation&width=400&height=300&seq=cumatrack-card&orientation=landscape"
-    }
+    },
+        {
+      title: "Ciência na Praça",
+      description: "Conhecer para conservar — projeto que leva ciência e educação ambiental para as comunidades, promovendo a conservação da Amazônia através do conhecimento científico e participação popular.",
+      href: "/projetos/ciencia-na-praca",
+      backgroundImage: "https://readdy.ai/api/search-image?query=Young%20scientists%20conducting%20environmental%20research%20in%20Amazon%20rainforest%20community%20setting%2C%20microscopes%20and%20scientific%20equipment%20outdoors%2C%20indigenous%20and%20local%20people%20learning%20together%2C%20bright%20natural%20lighting%2C%20educational%20atmosphere%2C%20lush%20green%20tropical%20vegetation%20background%2C%20community%20engagement%20in%20science&width=400&height=300&seq=ciencia-praca-card&orientation=landscape"
+    },
+        {
+      title: "Wai Wai Tapota",
+      description: "Um jogo educativo que ajuda os indígenas Wai Wai a aprenderem português e se adaptarem à vida urbana, valorizando sua cultura.",
+      href: "/projetos/wai-wai-tapota",
+      backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape"
+    },
   ];
 
   return (

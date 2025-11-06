@@ -10,6 +10,7 @@ import CumaTrack from '../pages/projetos/cumatrack/page';
 import NotFound from '../pages/NotFound';
 import Contato from '../pages/contato/page';
 import type { RouteObject } from 'react-router-dom';
+import Wai from '../pages/projetos/wai/page';
 
 const routes: RouteObject[] = [
   {
@@ -27,6 +28,10 @@ const routes: RouteObject[] = [
   {
     path: '/projetos/wai-wai-tapota',
     element: <WaiWaiTapota />
+  },
+    {
+    path: '/projetos/wai',
+    element: <Wai />
   },
   {
     path: '/projetos/wailingo',

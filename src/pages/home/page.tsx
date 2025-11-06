@@ -34,13 +34,12 @@ export default function Home() {
     return () => cancelAnimationFrame(animationFrame);
   }, [isPaused]);
 
-  const projects = [{ title: "Ciência na Praça", 
-    description: "Conhecer para conservar - Projeto que leva ciência para as comunidades, promovendo a conservação da Amazônia através do conhecimento.", href: "/projetos/ciencia-na-praca", backgroundImage: "https://readdy.ai/api/search-image?query=Young%20scientists%20conducting%20environmental%20research%20in%20Amazon%20rainforest%20community%20setting%2C%20microscopes%20and%20scientific%20equipment%20outdoors%2C%20indigenous%20and%20local%20people%20learning%20together%2C%20bright%20natural%20lighting%2C%20educational%20atmosphere%2C%20lush%20green%20tropical%20vegetation%20background%2C%20community%20engagement%20in%20science&width=400&height=300&seq=ciencia-praca-card&orientation=landscape", }, 
-    { title: "Wai (Game)", description: "Revitalizando a língua e cultura indígena - Preservação e fortalecimento da cultura Wai Wai através de ações educativas e culturais inovadoras.", href: "/projetos/wai-wai-tapota", backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape", }, 
-    { title: "WaiLingo (App)", description: "Aplicativo bilíngue para inclusão educacional - Tecnologia a serviço da educação intercultural, conectando saberes tradicionais e modernos.", href: "/projetos/wailingo", backgroundImage: "https://readdy.ai/api/search-image?query=Young%20indigenous%20students%20using%20smartphones%20and%20tablets%20for%20bilingual%20education%20app%2C%20modern%20technology%20integrated%20with%20traditional%20Amazon%20setting%2C%20digital%20learning%20in%20nature%2C%20bright%20screens%20showing%20language%20learning%20interface%2C%20cultural%20bridge%20between%20traditional%20and%20modern%20education&width=400&height=300&seq=wailingo-card&orientation=landscape", }, 
-    { title: "Wai Tapota (Game)", description: "Um jogo educativo que ajuda os indígenas Wai Wai a aprenderem português e se adaptarem à vida urbana, valorizando sua cultura.", href: "/projetos/wai-tapota", backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20youth%20playing%20educational%20game%20on%20tablet%20in%20Amazon%20forest&width=400&height=300&orientation=landscape", }, 
-    { title: "CumaTrack (App)", description: "Blockchain para rastreabilidade do cumaru - Inovação tecnológica para garantir a sustentabilidade e origem dos produtos amazônicos.", href: "/projetos/cumatrack", backgroundImage: "https://readdy.ai/api/search-image?query=Amazon%20cumaru%20seeds%20and%20products%20with%20digital%20blockchain%20technology%20overlay%2C%20sustainable%20harvesting%20in%20tropical%20forest%2C%20modern%20technology%20tracking%20natural%20products%2C%20QR%20codes%20and%20digital%20interfaces%2C%20eco-friendly%20packaging%2C%20green%20technology%20innovation%2C%20forest%20conservation&width=400&height=300&seq=cumatrack-card&orientation=landscape", },];
-
+  const projects = [
+    { title: "Wai (Game)", description: "Revitalizando a língua e cultura indígena - Preservação e fortalecimento da cultura Wai Wai através de ações educativas e culturais inovadoras.", href: "/projetos/wai-wai-tapota", backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape", },
+    { title: "WaiLingo (App)", description: "Aplicativo bilíngue para inclusão educacional - Tecnologia a serviço da educação intercultural, conectando saberes tradicionais e modernos.", href: "/projetos/wailingo", backgroundImage: "https://readdy.ai/api/search-image?query=Young%20indigenous%20students%20using%20smartphones%20and%20tablets%20for%20bilingual%20education%20app%2C%20modern%20technology%20integrated%20with%20traditional%20Amazon%20setting%2C%20digital%20learning%20in%20nature%2C%20bright%20screens%20showing%20language%20learning%20interface%2C%20cultural%20bridge%20between%20traditional%20and%20modern%20education&width=400&height=300&seq=wailingo-card&orientation=landscape", },
+    { title: "CumaTrack (App)", description: "Blockchain para rastreabilidade do cumaru - Inovação tecnológica para garantir a sustentabilidade e origem dos produtos amazônicos.", href: "/projetos/cumatrack", backgroundImage: "https://readdy.ai/api/search-image?query=Amazon%20cumaru%20seeds%20and%20products%20with%20digital%20blockchain%20technology%20overlay%2C%20sustainable%20harvesting%20in%20tropical%20forest%2C%20modern%20technology%20tracking%20natural%20products%2C%20QR%20codes%20and%20digital%20interfaces%2C%20eco-friendly%20packaging%2C%20green%20technology%20innovation%2C%20forest%20conservation&width=400&height=300&seq=cumatrack-card&orientation=landscape", },
+    { title: "Wai Wai Tapota", description: "O Wai Wai Tapota revitaliza a língua e cultura Wai Wai, unindo tradição e tecnologia para fortalecer a identidade indígena na Amazônia.", href: "/projetos/wai-tapota", backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape", },
+    { title: "Ciência na Praça", description: "O Ciência na Praça leva ciência e educação ambiental às comunidades, promovendo conhecimento, sustentabilidade e valorização da Amazônia.", href: "/projetos/ciencia-na-praca", backgroundImage: "https://readdy.ai/api/search-image?query=Young%20indigenous%20students%20using%20smartphones%20and%20tablets%20for%20bilingual%20education%20app%2C%20modern%20technology%20integrated%20with%20traditional%20Amazon%20setting%2C%20digital%20learning%20in%20nature%2C%20bright%20screens%20showing%20language%20learning%20interface%2C%20cultural%20bridge%20between%20traditional%20and%20modern%20education&width=400&height=300&seq=wailingo-card&orientation=landscape", },];
   const duplicatedProjects = [...projects, ...projects];
 
   return (
@@ -60,20 +59,18 @@ export default function Home() {
               Oriximiná na COP30
             </h1>
             <h2 className="text-2xl md:text-3xl font-[600] mb-8 text-[#ffdb27] drop-shadow-md">
-              Sustentabilidade, Cultura e Juventude em Ação
+              Sustentabilidade, Cultura e Juventude em Movimento
             </h2>
             <p className="text-lg md:text-xl leading-relaxed mb-12 max-w-3xl mx-auto text-white drop-shadow-md">
-              Oriximiná, coração da Amazônia, apresenta na COP30 seus projetos
-              que unem ciência, cultura, tecnologia e sustentabilidade. A
-              juventude oriximinaense assume o papel de protagonista na
-              construção de um futuro mais verde e inclusivo.
+              Oriximiná, no coração da Amazônia, apresenta na COP30 projetos que unem ciência, cultura e sustentabilidade.
+               A juventude oriximinaense protagoniza essa transformação, construindo um futuro mais verde e inclusivo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" href="/projetos">
                 Conheça os Projetos
               </Button>
               <Button variant="outline" size="lg" href="/juventude">
-                Juventude em Ação
+                Juventude em Movimento
               </Button>
             </div>
           </div>
@@ -123,7 +120,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-cover bg-center relative bg-[white] ">
         <div className="container mx-auto px-4 text-center ">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 drop-shadow-lg text-[#004201]"> Seja Parte da Transformação </h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 drop-shadow-lg text-[#004201]"> Vamos Transformar o Mundo? </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-md  text-[#1E1E1E]"> Junte-se à juventude oriximinaense na construção de um futuro sustentável para a Amazônia </p> <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" href="/contato"> Entre em Contato </Button>
           </div>

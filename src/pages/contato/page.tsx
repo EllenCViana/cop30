@@ -12,9 +12,9 @@ export default function Contato() {
   });
 
   const canaisAtendimento = [
-    { titulo: "Atendimento Presencial", descricao: "Visite nossa sede para atendimento personalizado", icone: "ri-building-line", info: "Segunda a Sexta, 8h às 17h" },
-    { titulo: "WhatsApp", descricao: "Atendimento rápido via WhatsApp", icone: "ri-whatsapp-line", info: "(93) 99999-9999" },
-    { titulo: "Redes Sociais", descricao: "Acompanhe nossas redes sociais", icone: "ri-share-line", info: "@semjuoriximina" }
+    { titulo: "Atendimento Presencial", descricao: "Visite nossa sede para atendimento personalizado", icone: "ri-building-line", info: "Segunda a Sexta, 8h às 14h" },
+    { titulo: "WhatsApp", descricao: "Atendimento rápido via WhatsApp", icone: "ri-whatsapp-line", info: "(93) 99221-1254" },
+    { titulo: "Redes Sociais", descricao: "Acompanhe nossas redes sociais", icone: "ri-share-line", info: "@semju.orixi" }
   ];
 
   return (
@@ -62,7 +62,7 @@ export default function Contato() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-[#004201] mb-8">Onde Estamos 📍</h2>
           <p className="text-gray-700 mb-6">
-            Rua Principal, 123 - Centro, Oriximiná - PA, CEP: 68270-000
+            Rua Barão do Rio Branco, 2336 - Centro, Oriximiná - PA, CEP: 68270-000
           </p>
 
           <div className="overflow-hidden rounded-2xl shadow-lg border border-green-100">
