@@ -22,6 +22,12 @@ export default function Sobre() {
       descricao: "Especialista em Experiência do Usuário.",
       imagem: "/ellen.jpg"
     },
+        {
+      nome: "Igor Santos",
+      cargo: "Colaboradora do Projeto",
+      descricao: "BiólogoEspecialista em Orquídeas.",
+      imagem: "/igor.jpg"
+    },
     {
       nome: "Marcelo Souza",
       cargo: "Colaborador do Projeto",
@@ -260,7 +266,7 @@ Ser referência na promoção de políticas públicas criativas, inovadoras e in
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-[#004201] mb-12">Nossa Equipe</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
             {equipe.map((membro, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 text-center border border-green-100">
                 <img 
@@ -269,7 +275,7 @@ Ser referência na promoção de políticas públicas criativas, inovadoras e in
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover object-top shadow-md"
                 />
                 <h3 className="text-xl font-bold text-[#16A34A] mb-2">{membro.nome}</h3>
-                <p className="text-[#F59E0B] font-semibold mb-3">{membro.cargo}</p>
+                <p className="text-[#F59E0B] text-md font-semibold mb-1">{membro.cargo}</p>
                 <p className="text-gray-600 text-sm leading-relaxed">{membro.descricao}</p>
               </div>
             ))}
