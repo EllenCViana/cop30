@@ -8,31 +8,31 @@ export default function Projetos() {
     {
       title: "Wai (Game)",
       description: "Revitalizando a língua e cultura indígena — preservação e fortalecimento da cultura Wai Wai através de ações educativas, culturais e tecnológicas inovadoras para as futuras gerações.",
-      href: "/wai",
-      backgroundImage: "/public/wai2.jpg"
+      href: "/projetos/wai",
+      backgroundImage: "/wai2.jpg"
     },
     {
       title: "WaiLingo (App)",
       description: "Aplicativo bilíngue para inclusão educacional — tecnologia a serviço da educação intercultural, conectando saberes tradicionais e modernos através de plataforma digital inovadora.",
-      href: "/wailingo",
-      backgroundImage: "/public/wailingo1.jpg"
+      href: "/projetos/wailingo",
+      backgroundImage: "/wailingo1.jpg"
     },
     {
       title: "CumaTrack (App)",
       description: "Blockchain para rastreabilidade do cumaru — inovação tecnológica para garantir a sustentabilidade, origem e qualidade dos produtos amazônicos no mercado global.",
-      href: "/cumatrack",
-      backgroundImage: "/public/cumatrack3.jpg"
+      href: "/projetos/cumatrack",
+      backgroundImage: "/cumatrack3.jpg"
     },
         {
       title: "Ciência na Praça",
       description: "Conhecer para conservar — projeto que leva ciência e educação ambiental para as comunidades, promovendo a conservação da Amazônia através do conhecimento científico e participação popular.",
-      href: "/ciencia-na-praca",
-      backgroundImage: "/public/napraca.jpg"
+      href: "/projetos/ciencia-na-praca",
+      backgroundImage: "/napraca.jpg"
     },
         {
       title: "Wai Wai Tapota",
       description: "Um jogo educativo que ajuda os indígenas Wai Wai a aprenderem português e se adaptarem à vida urbana, valorizando sua cultura.",
-      href: "/wai-wai-tapota",
+      href: "/projetos/wai-wai-tapota",
       backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape"
     },
   ];
