@@ -70,7 +70,7 @@ export default function CumaTrack() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/qrcode2.png"
+                      src="/qrcode2.png"
                       alt="QR Code do CumaTrack"
                       className="w-full h-72 object-cover object-top"
                     />
@@ -78,7 +78,7 @@ export default function CumaTrack() {
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/qrcode.png"
+                      src="/qrcode.png"
                       alt="QR Code na arvore de Cumaru"
                       className="w-full h-72 object-cover object-top"
                     />
@@ -86,7 +86,7 @@ export default function CumaTrack() {
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/cumaru12.jpg"
+                      src="/cumaru12.jpg"
                       alt="Cumatrack"
                       className="w-full h-72 object-cover object-top"
                     />
@@ -98,7 +98,7 @@ export default function CumaTrack() {
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/cumatrackapp.png"
+                      src="/cumatrackapp.png"
                       alt="Cumatrack"
                       className="w-full h-72 object-cover object-top"
                     />

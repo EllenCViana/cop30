@@ -63,14 +63,14 @@ export default function CienciaNaPraca() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="/public/napraca.jpg"
+                      src="/napraca.jpg"
                       className="w-full h-64 object-cover object-top"
                     />
                   </div>
                   
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                     src="/public/napraca1.jpg"
+                     src="/napraca1.jpg"
                       alt="Interação com a comunidade"
                       className="w-full h-64 object-cover object-top"
                     />
@@ -78,14 +78,14 @@ export default function CienciaNaPraca() {
                   
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="/public/napraca2.jpg"
+                      src="/napraca2.jpg"
                       className="w-full h-64 object-cover object-top"
                     />
                   </div>
                   
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="/public/napraca3.jpg"
+                      src="/napraca3.jpg"
                       className="w-full h-64 object-cover object-top"
                     />
                   </div>

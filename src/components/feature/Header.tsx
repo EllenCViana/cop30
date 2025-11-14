@@ -41,9 +41,8 @@ export default function Header() {
                   key={item.label}
                   href={item.href}
                   onClick={() => setActivePath(item.href)}
-                  className={`relative font-medium transition-colors duration-200 group ${
-                    isActive ? 'text-[#F59E0B]' : 'text-[#1e1e1e] hover:text-[#F59E0B]'
-                  }`}
+                  className={`relative font-medium transition-colors duration-200 group ${isActive ? 'text-[#F59E0B]' : 'text-[#1e1e1e] hover:text-[#F59E0B]'
+                    }`}
                 >
                   {item.label}
                   <span
@@ -80,11 +79,10 @@ export default function Header() {
                     setActivePath(item.href);
                     setIsMenuOpen(false);
                   }}
-                  className={`block py-3 px-2 font-medium rounded-lg transition-all duration-200 ${
-                    isActive
-                      ? 'text-[#F59E0B] border-b-2 border-[#F59E0B]'
+                  className={`block py-3 px-2 font-medium rounded-lg transition-all duration-200 ${isActive
+                      ? 'bg-gray-100 text-[#F59E0B]'  // <- fundo sutil + cor ativa
                       : 'text-[#1e1e1e] hover:text-[#F59E0B] hover:bg-gray-50'
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </a>
@@ -92,6 +90,7 @@ export default function Header() {
             })}
           </div>
         )}
+
       </div>
     </header>
   );

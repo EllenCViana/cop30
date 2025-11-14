@@ -59,7 +59,7 @@ Um jogo sério projetado para auxiliar alunos indígenas da tribo Wai Wai no apr
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                     src="/public/wai1.jpg"
+                     src="/wai1.jpg"
                       alt="Ensino da língua Wai Wai"
                       className="w-full h-64 object-cover object-top"
                     />
@@ -67,7 +67,7 @@ Um jogo sério projetado para auxiliar alunos indígenas da tribo Wai Wai no apr
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/wai2.jpg"
+                      src="/wai2.jpg"
                       alt="Repositório digital"
                       className="w-full h-64 object-cover object-top"
                     />
@@ -75,7 +75,7 @@ Um jogo sério projetado para auxiliar alunos indígenas da tribo Wai Wai no apr
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/wai3.jpg"
+                      src="/wai3.jpg"
                       alt="Placas bilíngues"
                       className="w-full h-64 object-cover object-top"
                     />
@@ -83,7 +83,7 @@ Um jogo sério projetado para auxiliar alunos indígenas da tribo Wai Wai no apr
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="/public/wai4.jpg"
+                      src="/wai4.jpg"
                       alt="Material didático"
                       className="w-full h-64 object-cover object-top"
                     />
