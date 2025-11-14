@@ -10,7 +10,7 @@ export default function ProjectCard({ title, description, href, backgroundImage 
     <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group cursor-pointer transform hover:scale-[1.01]">
       <a href={href} className="block">
         <div 
-          className="h-48 bg-cover bg-center relative transition-transform duration-300 group-hover:scale-[1.02]"
+          className="h-64 bg-cover bg-center relative transition-transform duration-300 group-hover:scale-[1.02]"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>

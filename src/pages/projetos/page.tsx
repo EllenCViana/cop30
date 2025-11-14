@@ -33,8 +33,7 @@ export default function Projetos() {
       title: "Wai Wai Tapota",
       description: "Um jogo educativo que ajuda os indígenas Wai Wai a aprenderem português e se adaptarem à vida urbana, valorizando sua cultura.",
       href: "/projetos/wai-wai-tapota",
-      backgroundImage: "https://readdy.ai/api/search-image?query=Indigenous%20Wai%20Wai%20people%20teaching%20traditional%20culture%20and%20language%20to%20young%20people%2C%20colorful%20traditional%20clothing%20and%20crafts%2C%20cultural%20preservation%20activities%2C%20warm%20community%20atmosphere%2C%20traditional%20huts%20and%20Amazon%20forest%20background%2C%20intergenerational%20knowledge%20sharing%2C%20vibrant%20cultural%20elements&width=400&height=300&seq=wai-wai-card&orientation=landscape"
-    },
+      backgroundImage: "/napraca2.jpg"}
   ];
 
   return (
@@ -43,7 +42,7 @@ export default function Projetos() {
 
       {/* Hero Section - Projetos */}
       <section
-        className="relative flex items-center justify-center py-12 md:py-36 bg-cover bg-center"
+        className="relative flex items-center justify-center py-8 md:py-32 bg-cover bg-center"
       >
         {/* Conteúdo */}
         <div className="relative z-10 text-center px-16 max-w-6xl mx-auto">
@@ -72,7 +71,7 @@ export default function Projetos() {
       {/* Projects Grid */}
       <section className="py-24 relative bg-cover bg-center"
       >
-        <div className="container mx-auto px-16 relative z-10">
+        <div className="container mx-auto px-8 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {projects.map((project, index) => (
               <motion.div
