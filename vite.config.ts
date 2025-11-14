@@ -4,14 +4,18 @@ import { resolve } from 'node:path'
 import AutoImport from 'unplugin-auto-import/vite'
 import { viteStaticCopy } from 'vite-plugin-static-copy'
 
-const base = process.env.BASE_PATH || '/'
-const isPreview = !!process.env.IS_PREVIEW
+// Detecta deploy no Netlify
+const isNetlify = process.env.NETLIFY === 'true'
+
+// No Netlify, o base PRECISA ser '/', senão quebra as imagens
+const base = isNetlify ? '/' : (process.env.BASE_PATH || '/')
 
 export default defineConfig({
   define: {
     __BASE_PATH__: JSON.stringify(base),
-    __IS_PREVIEW__: JSON.stringify(isPreview),
+    __IS_PREVIEW__: JSON.stringify(process.env.IS_PREVIEW || false),
   },
+
   plugins: [
     react(),
     AutoImport({
@@ -57,36 +61,38 @@ export default defineConfig({
           ]
         },
         {
-          'react-i18next': [
-            'useTranslation',
-            'Trans'
-          ]
+          'react-i18next': ['useTranslation', 'Trans']
         }
       ],
       dts: true,
     }),
 
-    // 👇 ESSA PARTE é o que garante a cópia do _redirects
+    // Continua copiando o _redirects para a raiz
     viteStaticCopy({
       targets: [
         {
           src: 'public/_redirects',
-          dest: '' // raiz do out/
+          dest: '' 
         }
       ]
     })
   ],
-  base,
+
+  base, // <===== corrigido
+
   build: {
     sourcemap: true,
     outDir: 'out',
   },
+
   publicDir: 'public',
+
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
     },
   },
+
   server: {
     port: 3000,
     host: '0.0.0.0',
