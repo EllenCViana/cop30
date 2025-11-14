@@ -37,7 +37,7 @@ export default function Home() {
   const projects = [
     { title: "CumaTrack (App)", description: "Blockchain para rastreabilidade do cumaru - Inovação tecnológica para garantir a sustentabilidade e origem dos produtos amazônicos.", href: "/projetos/cumatrack", backgroundImage: "/cumatrackapp.png", },
     { title: "Wai (Game)", description: "Revitalizando a língua e cultura indígena - Preservação e fortalecimento da cultura Wai Wai através de ações educativas e culturais inovadoras.", href: "/projetos/wai", backgroundImage: "/wai3.jpg", },
-    { title: "Wai Wai Tapota", description: "O Wai Wai Tapota revitaliza a língua e cultura Wai Wai, unindo tradição e tecnologia para fortalecer a identidade indígena na Amazônia.", href: "/projetos/wai-tapota", backgroundImage: "/napraca2.jpg", },
+    { title: "Wai Wai Tapota", description: "O Wai Wai Tapota revitaliza a língua e cultura Wai Wai, unindo tradição e tecnologia para fortalecer a identidade indígena na Amazônia.", href: "/projetos/wai-wai-tapota", backgroundImage: "/napraca2.jpg", },
     { title: "WaiLingo (App)", description: "Aplicativo bilíngue para inclusão educacional - Tecnologia a serviço da educação intercultural, conectando saberes tradicionais e modernos.", href: "/projetos/wailingo", backgroundImage: "/wailingo.png", },
     { title: "Ciência na Praça", description: "O Ciência na Praça leva ciência e educação ambiental às comunidades, promovendo conhecimento, sustentabilidade e valorização da Amazônia.", href: "/projetos/ciencia-na-praca", backgroundImage: "/napraca.jpg", },];
   const duplicatedProjects = [...projects, ...projects];
