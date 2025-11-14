@@ -23,17 +23,18 @@ export default function Projetos() {
       href: "/projetos/cumatrack",
       backgroundImage: "/cumatrack3.jpg"
     },
-        {
+    {
       title: "Ciência na Praça",
       description: "Conhecer para conservar — projeto que leva ciência e educação ambiental para as comunidades, promovendo a conservação da Amazônia através do conhecimento científico e participação popular.",
       href: "/projetos/ciencia-na-praca",
       backgroundImage: "/napraca.jpg"
     },
-        {
+    {
       title: "Wai Wai Tapota",
       description: "Um jogo educativo que ajuda os indígenas Wai Wai a aprenderem português e se adaptarem à vida urbana, valorizando sua cultura.",
       href: "/projetos/wai-wai-tapota",
-      backgroundImage: "/napraca2.jpg"}
+      backgroundImage: "/napraca2.jpg"
+    }
   ];
 
   return (
@@ -41,31 +42,38 @@ export default function Projetos() {
       <Header />
 
       {/* Hero Section - Projetos */}
-      <section
-        className="relative flex items-center justify-center py-8 md:py-32 bg-cover bg-center"
-      >
-        {/* Conteúdo */}
-        <div className="relative z-10 text-center px-16 max-w-6xl mx-auto">
-          <motion.h1
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-5xl md:text-5xl font-bold text-[#FEA000] mb-6"
-          >
-            Projetos que Transformam Oriximiná
-          </motion.h1>
+<section
+  className="relative flex flex-col items-center justify-center pt-20 pb-28 md:pt-32 md:pb-40 bg-cover bg-center"
+>
+  {/* Conteúdo */}
+  <div className="relative z-10 text-center px-6 md:px-16 max-w-6xl mx-auto">
+    <motion.h1
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="text-4xl md:text-5xl font-bold text-[#FEA000] mb-6"
+    >
+      Projetos que Transformam Oriximiná
+    </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-lg md:text-2xl text-[#1E1E1E] leading-relaxed max-w-3xl mx-auto"
-          >
-            Iniciativas que unem ciência, cultura, tecnologia e sustentabilidade —
-            revelando o protagonismo da juventude oriximinaense como guardiã da Amazônia.
-          </motion.p>
-        </div>
-      </section>
+    <motion.p
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.3, duration: 0.8 }}
+      className="text-base md:text-2xl text-[#1E1E1E] leading-relaxed max-w-3xl mx-auto"
+    >
+      Iniciativas que unem ciência, cultura, tecnologia e sustentabilidade —
+      revelando o protagonismo da juventude oriximinaense como guardiã da Amazônia.
+    </motion.p>
+  </div>
+
+  {/* Scroll Indicator fixado no fundo e responsivo */}
+  <div className="absolute bottom-6 inset-x-0 flex justify-center z-20 pointer-events-none">
+    <div className="w-6 h-10 border-2 border-black rounded-full flex justify-center animate-bounce">
+      <div className="w-1 h-3 bg-black rounded-full mt-2"></div>
+    </div>
+  </div>
+</section>
 
 
       {/* Projects Grid */}
