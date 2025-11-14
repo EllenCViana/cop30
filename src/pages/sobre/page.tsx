@@ -5,84 +5,89 @@ import Footer from '../../components/feature/Footer';
 export default function Sobre() {
   const equipe = [
     {
-      nome: "Maria Silva",
+      nome: "Nara Maia",
       cargo: "Secretária Municipal da Juventude",
-      descricao: "Liderança em políticas públicas para juventude com foco em sustentabilidade amazônica.",
-      imagem: "https://readdy.ai/api/search-image?query=Professional%20woman%20leader%20in%20government%20office%20in%20Amazon%20region%2C%20wearing%20formal%20attire%2C%20confident%20expression%2C%20modern%20office%20background%20with%20plants%20and%20natural%20lighting%2C%20portrait%20style%20photography&width=300&height=300&seq=1&orientation=squarish"
+      descricao: "Liderança em políticas públicas para juventude.",
+      imagem: "/public/IMG_0848.JPG"
     },
     {
-      nome: "João Santos",
-      cargo: "Coordenador de Projetos",
-      descricao: "Especialista em gestão de projetos inovadores e parcerias com universidades.",
-      imagem: "https://readdy.ai/api/search-image?query=Professional%20man%20project%20coordinator%20in%20Amazon%20region%2C%20wearing%20casual%20formal%20attire%2C%20friendly%20smile%2C%20modern%20workspace%20with%20technology%20and%20nature%20elements%2C%20portrait%20photography&width=300&height=300&seq=2&orientation=squarish"
+      nome: "Khalil Dias",
+      cargo: "Colaborador do Projeto",
+      descricao: "Especialista em desenvolvimento de Software.",
+      imagem: "/public/khalil.jpg"
     },
     {
-      nome: "Ana Costa",
-      cargo: "Coordenadora de Inclusão Digital",
-      descricao: "Responsável por programas de tecnologia e inclusão digital para jovens indígenas.",
-      imagem: "https://readdy.ai/api/search-image?query=Professional%20woman%20technology%20coordinator%20working%20with%20indigenous%20youth%2C%20wearing%20modern%20casual%20attire%2C%20warm%20expression%2C%20office%20with%20computers%20and%20cultural%20elements%2C%20portrait%20style&width=300&height=300&seq=3&orientation=squarish"
+      nome: "Ellen Viana",
+      cargo: "Colaboradora do Projeto",
+      descricao: "Especialista em Experiência do Usuário.",
+      imagem: "/public/ellen.jpg"
     },
     {
-      nome: "Carlos Ribeiro",
-      cargo: "Especialista em Sustentabilidade",
-      descricao: "Foco em projetos ambientais e desenvolvimento sustentável na Amazônia.",
-      imagem: "https://readdy.ai/api/search-image?query=Professional%20man%20environmental%20specialist%20in%20Amazon%20region%2C%20wearing%20field%20work%20attire%2C%20confident%20look%2C%20background%20with%20forest%20and%20sustainability%20elements%2C%20natural%20lighting%20portrait&width=300&height=300&seq=4&orientation=squarish"
+      nome: "Marcelo Souza",
+      cargo: "Colaborador do Projeto",
+      descricao: "Especialista em Desenvolvimento de Games.",
+      imagem: "/public/marcelo.jpg"
     }
   ];
 
   const valores = [
     {
       icone: "ri-heart-line",
-      titulo: "Inclusão",
-      descricao: "Promovemos a participação de todas as juventudes, respeitando suas diversidades e especificidades."
+      titulo: "Protagonismo Juvenil",
+      descricao: "Valorizamos a juventude como agente ativa na construção de políticas públicas e no desenvolvimento de Oriximiná."
     },
     {
       icone: "ri-leaf-line",
-      titulo: "Sustentabilidade",
-      descricao: "Desenvolvemos ações que preservam a Amazônia e promovem o desenvolvimento sustentável."
+      titulo: "Inclusão e Diversidade",
+      descricao: "Respeitamos e promovemos a pluralidade cultural, étnica, social e territorial dos jovens, incluindo indígenas, ribeirinhos, quilombolas e urbanos."
     },
     {
       icone: "ri-lightbulb-line",
-      titulo: "Inovação",
-      descricao: "Utilizamos tecnologia e métodos inovadores para criar soluções efetivas para os jovens."
+      titulo: "Participação Cidadã",
+      descricao: "Incentivamos a escuta ativa, o diálogo democrático e o envolvimento direto dos jovens nas decisões que impactam suas vidas."
     },
     {
       icone: "ri-group-line",
-      titulo: "Participação",
-      descricao: "Incentivamos o protagonismo jovem e a participação ativa na construção de políticas públicas."
+      titulo: "Equidade e Justiça Social",
+      descricao: "Trabalhamos para reduzir desigualdades, ampliando o acesso a oportunidades de educação, trabalho, cultura, esporte e saúde"
     },
     {
       icone: "ri-book-open-line",
-      titulo: "Educação",
-      descricao: "Valorizamos a educação como ferramenta de transformação social e desenvolvimento pessoal."
+      titulo: "Sustentabilidade e Amor pela Amazônia",
+      descricao: "Atuamos com compromisso socioambiental, valorizando o território amazônico e promovendo a consciência ecológica entre os jovens."
     },
     {
       icone: "ri-global-line",
-      titulo: "Diversidade Cultural",
-      descricao: "Celebramos e preservamos a riqueza cultural das comunidades amazônicas."
-    }
+      titulo: "Transparência e Ética Pública",
+      descricao: "Defendemos a gestão pública responsável, ética, transparente e orientada para resultados reais."
+    },
+        {
+      icone: "ri-global-line",
+      titulo: "Criatividade e Inovação",
+      descricao: "Estimulamos soluções inovadoras, tecnológicas e culturais para os desafios enfrentados pela juventude de Oriximiná."
+    },
   ];
 
   const conquistas = [
     {
-      numero: "4",
-      titulo: "Projetos Inovadores",
-      descricao: "Desenvolvidos em parceria com a UFOPA"
+      numero: "200",
+      titulo: "",
+      descricao: "Jovens - Projetos Inovadores"
     },
     {
-      numero: "300+",
-      titulo: "Jovens Impactados",
-      descricao: "Diretamente beneficiados pelos programas"
+      numero: "150",
+      titulo: "",
+      descricao: "MPJ0"
     },
     {
-      numero: "15+",
-      titulo: "Comunidades Atendidas",
-      descricao: "Urbanas, rurais, ribeirinhas e indígenas"
+      numero: "100",
+      titulo: "",
+      descricao: "Projetos Paralelos"
     },
     {
-      numero: "1",
-      titulo: "Ano de Atuação",
-      descricao: "Transformando vidas na Amazônia"
+      numero: "387",
+      titulo: "",
+      descricao: "Pessoas no Instagram"
     }
   ];
 
@@ -94,7 +99,7 @@ export default function Sobre() {
       <section 
         className="relative py-24 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(22, 163, 74, 0.8), rgba(5, 150, 105, 0.8)), url('https://readdy.ai/api/search-image?query=Modern%20government%20building%20in%20Amazon%20region%20with%20lush%20green%20vegetation%2C%20young%20people%20walking%20around%2C%20bright%20sunny%20day%2C%20professional%20architecture%20integrated%20with%20nature%2C%20wide%20angle%20view&width=1200&height=600&seq=5&orientation=landscape')`
+          backgroundImage: `linear-gradient(rgba(16, 135, 60, 0.8), rgba(9, 66, 48, 0.8)), url("/public/IMG_9038.JPEG.jpg")`
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">
@@ -126,7 +131,7 @@ export default function Sobre() {
             </div>
             <div>
               <img 
-                src="https://static.readdy.ai/image/eb8d15b9a0cd3fa48499f9786766c284/21dbd7f2a23044f469e2f9cd546764ec.jpeg"
+                src="/public/IMG_9038.JPEG.jpg"
                 alt="Infográfico sobre a SEMJU"
                 className="rounded-2xl shadow-lg w-full h-96 object-cover object-top"
               />
@@ -141,7 +146,7 @@ export default function Sobre() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://readdy.ai/api/search-image?query=Young%20diverse%20group%20from%20Amazon%20region%20participating%20in%20community%20meeting%2C%20indigenous%2C%20quilombola%2C%20riverside%20and%20urban%20youth%20together%2C%20collaborative%20atmosphere%2C%20natural%20lighting%2C%20documentary%20style%20photography&width=600&height=400&seq=6&orientation=landscape"
+                src="/public/IMG_9059.JPEG.jpg"
                 alt="Juventudes diversas de Oriximiná"
                 className="rounded-2xl shadow-lg w-full h-96 object-cover object-top"
               />
@@ -170,7 +175,7 @@ export default function Sobre() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-[#004201] mb-8">O que ela significa para nós, jovens oriximinaenses?</h2>
-              <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-2xl p-8 shadow-lg text-white">
+              <div className=" bg-white rounded-2xl p-8 shadow-lg text-black">
                 <p className="text-lg leading-relaxed mb-6">
                   Como em um <strong>aplicativo de oportunidades</strong>, é a <strong>bateria social</strong> que recarrega nossos 
                   sonhos com políticas públicas que funcionam, a <strong>ponte de acesso</strong> que conecta talentos 
@@ -181,7 +186,7 @@ export default function Sobre() {
             </div>
             <div>
               <img 
-                src="https://readdy.ai/api/search-image?query=Young%20people%20from%20Oriximin%C3%A1%20using%20technology%20and%20participating%20in%20social%20programs%2C%20diverse%20group%20including%20indigenous%20and%20riverside%20youth%2C%20modern%20setting%20with%20Amazon%20background%2C%20empowerment%20atmosphere&width=600&height=400&seq=7&orientation=landscape"
+                src="/public/IMG_3115.JPG"
                 alt="Jovens oriximinaenses empoderados"
                 className="rounded-2xl shadow-lg w-full h-96 object-cover object-top"
               />
@@ -190,20 +195,27 @@ export default function Sobre() {
         </div>
       </section>
 
-      {/* Missão e Visão */}
+      {/* Missão */}
       <section className="py-16 bg-white/50">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-[#004201] mb-12">Nossa Missão</h2>
+          <h2 className="text-4xl font-bold text-center text-[#004201] mb-12">Missão</h2>
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-green-100">
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Fortalecer as políticas públicas voltadas à juventude e promover o protagonismo jovem 
-                na construção de um futuro sustentável, inclusivo e inovador na Amazônia.
+Promover, formular e gerir políticas públicas integradas, inclusivas e participativas que garantam o desenvolvimento integral de jovens, crianças e adolescentes de Oriximiná, fomentando a educação, a cultura, o esporte e o empreendedorismo através de iniciativas criativas e inovadoras que acolhem e impulsionam o protagonismo de todas as juventudes do nosso território, garantindo o acesso aos direitos estabelecidos no Estatuto da Juventude.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Desenvolvemos programas que dialogam com as realidades das juventudes urbanas, 
-                rurais, ribeirinhas, quilombolas e indígenas, refletindo a diversidade cultural 
-                e social de Oriximiná.
+            </div>
+          </div>
+        </div>
+      </section>
+            {/* Visão */}
+      <section className="py-16 bg-white/50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center text-[#004201] mb-12">Visão</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-green-100">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+Ser referência na promoção de políticas públicas criativas, inovadoras e inclusivas para a juventude amazônica realizar seu potencial, construindo um futuro com mais oportunidades, equidade e participação ativa dos jovens na transformação social de Oriximiná.
               </p>
             </div>
           </div>

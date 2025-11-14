@@ -68,50 +68,34 @@ export default function WaiWaiTapota() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Wai%20Wai%20indigenous%20elders%20teaching%20traditional%20language%20to%20young%20people%20using%20digital%20tablets%20and%20traditional%20materials%2C%20intergenerational%20knowledge%20transfer%2C%20authentic%20indigenous%20setting%20with%20traditional%20crafts%20and%20decorations%2C%20warm%20community%20atmosphere%2C%20cultural%20preservation&width=600&height=400&seq=wai-wai-1&orientation=landscape"
-                      alt="Ensino da língua Wai Wai"
+                      src="/public/napraca1.jpg"
+                      alt="Wai wai Tapota"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Ensino Tradicional</h4>
-                      <p className="text-sm text-gray-600">Anciãos transmitindo conhecimento linguístico</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Digital%20repository%20interface%20showing%20Wai%20Wai%20language%20materials%2C%20bilingual%20dictionary%20app%20on%20tablet%20screen%2C%20indigenous%20language%20learning%20platform%2C%20modern%20technology%20preserving%20traditional%20culture%2C%20user-friendly%20educational%20interface&width=600&height=400&seq=wai-wai-2&orientation=landscape"
-                      alt="Repositório digital"
+                      src="/public/napraca2.jpg"
+                      alt="Wai wai Tapota"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Repositório Digital</h4>
-                      <p className="text-sm text-gray-600">Plataforma bilíngue Wai Wai-Português</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Bilingual%20street%20signs%20in%20Portuguese%20and%20Wai%20Wai%20language%20in%20public%20square%20in%20Amazon%20city%2C%20urban%20indigenous%20language%20visibility%2C%20cultural%20integration%20in%20city%20spaces%2C%20modern%20signage%20design%2C%20community%20pride%20and%20cultural%20recognition&width=600&height=400&seq=wai-wai-3&orientation=landscape"
-                      alt="Placas bilíngues"
+                      src="/public/napraca3.jpg"
+                      alt="Wai wai Tapota"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Sinalização Urbana</h4>
-                      <p className="text-sm text-gray-600">Placas bilíngues em espaços públicos</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Indigenous%20students%20using%20educational%20materials%20in%20Wai%20Wai%20language%2C%20classroom%20setting%20with%20traditional%20and%20modern%20learning%20tools%2C%20young%20people%20engaged%20in%20cultural%20learning%2C%20books%20and%20digital%20devices%2C%20educational%20empowerment&width=600&height=400&seq=wai-wai-4&orientation=landscape"
-                      alt="Material didático"
+                      src="/public/napraca.jpg"
+                      alt="Wai wai Tapota"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Materiais Didáticos</h4>
-                      <p className="text-sm text-gray-600">Recursos educacionais em língua Wai Wai</p>
-                    </div>
                   </div>
                 </div>
               </div>

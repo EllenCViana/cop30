@@ -70,50 +70,42 @@ export default function CumaTrack() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Amazon%20forest%20workers%20harvesting%20cumaru%20seeds%20from%20tall%20trees%2C%20sustainable%20extraction%20practices%2C%20traditional%20knowledge%20meets%20modern%20technology%2C%20forest%20conservation%2C%20authentic%20Amazon%20rainforest%20setting%2C%20responsible%20harvesting&width=600&height=400&seq=cumatrack-1&orientation=landscape"
-                      alt="Colheita sustentável do cumaru"
-                      className="w-full h-64 object-cover object-top"
+                      src="/public/qrcode2.png"
+                      alt="QR Code do CumaTrack"
+                      className="w-full h-72 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Colheita Sustentável</h4>
-                      <p className="text-sm text-gray-600">Extração responsável do cumaru na floresta</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Blockchain%20technology%20interface%20showing%20cumaru%20supply%20chain%20tracking%2C%20digital%20certificates%20and%20QR%20codes%2C%20transparent%20traceability%20system%2C%20modern%20technology%20dashboard%2C%20data%20visualization%20for%20sustainable%20products&width=600&height=400&seq=cumatrack-2&orientation=landscape"
-                      alt="Tecnologia blockchain"
-                      className="w-full h-64 object-cover object-top"
+                      src="/public/qrcode.png"
+                      alt="QR Code na arvore de Cumaru"
+                      className="w-full h-72 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Blockchain</h4>
-                      <p className="text-sm text-gray-600">Rastreabilidade transparente da cadeia produtiva</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Local%20Amazon%20producers%20using%20mobile%20app%20to%20register%20cumaru%20products%2C%20farmers%20with%20smartphones%20scanning%20QR%20codes%2C%20digital%20inclusion%20in%20rural%20communities%2C%20technology%20empowering%20traditional%20producers%2C%20sustainable%20agriculture&width=600&height=400&seq=cumatrack-3&orientation=landscape"
-                      alt="Produtores locais"
-                      className="w-full h-64 object-cover object-top"
+                      src="/public/cumaru12.jpg"
+                      alt="Cumatrack"
+                      className="w-full h-72 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
+                    {/* <div className="p-4 bg-white">
                       <h4 className="font-semibold text-[#0E4D2B]">Produtores Locais</h4>
                       <p className="text-sm text-gray-600">Inclusão digital de comunidades tradicionais</p>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=International%20market%20showcase%20of%20certified%20Amazon%20cumaru%20products%2C%20premium%20sustainable%20goods%20with%20blockchain%20certificates%2C%20global%20commerce%20meeting%20forest%20conservation%2C%20export%20quality%20products%2C%20economic%20development&width=600&height=400&seq=cumatrack-4&orientation=landscape"
-                      alt="Mercado global"
-                      className="w-full h-64 object-cover object-top"
+                      src="/public/cumatrackapp.png"
+                      alt="Cumatrack"
+                      className="w-full h-72 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
+                    {/* <div className="p-4 bg-white">
                       <h4 className="font-semibold text-[#0E4D2B]">Mercado Global</h4>
                       <p className="text-sm text-gray-600">Produtos certificados no mercado internacional</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

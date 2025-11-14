@@ -66,12 +66,12 @@ export default defineConfig({
       dts: true,
     }),
 
-    // 👇 Copia o arquivo _redirects para o build final
+    // 👇 ESSA PARTE é o que garante a cópia do _redirects
     viteStaticCopy({
       targets: [
         {
           src: 'public/_redirects',
-          dest: ''
+          dest: '' // raiz do out/
         }
       ]
     })

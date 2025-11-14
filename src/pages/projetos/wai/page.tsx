@@ -21,12 +21,12 @@ export default function Wai() {
               Wai
             </h1>
             <p className="text-2xl text-white/90 mb-8 leading-relaxed">
-Educação, tecnologia e inclusão linguística por meio da gamificação
+              Educação, tecnologia e inclusão linguística por meio da gamificação
             </p>
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30">
               <p className="text-white text-lg leading-relaxed">
-                Revitalizando a língua Wai Wai do tronco Karib através de tecnologia digital,
-                preservando a diversidade linguística e cultural da Amazônia para as futuras gerações.
+Um jogo sério projetado para auxiliar alunos indígenas da tribo Wai Wai no aprendizado da língua portuguesa durante sua transição da aldeia para a cidade de Oriximiná.
+
               </p>
             </div>
           </div>
@@ -41,27 +41,15 @@ Educação, tecnologia e inclusão linguística por meio da gamificação
               <h2 className="text-3xl font-bold text-[#0E4D2B] mb-6">Sobre o Projeto</h2>
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
                 <p>
-                  O Wai é um jogo educativo e cultural criado com o propósito de fortalecer a inclusão
-                  social e linguística da comunidade indígena Wai Wai, localizada em Oriximiná, no Pará.
-                  A iniciativa funciona como uma ferramenta de apoio à adaptação dos indígenas à vida urbana,
-                  oferecendo informações práticas e ensinamentos de língua portuguesa de forma interativa e
-                  acessível. Por meio da tecnologia, o projeto busca reduzir barreiras de comunicação e
-                  ampliar as oportunidades de integração dos Wai Wai na sociedade, promovendo autonomia
-                  e valorizando sua identidade cultural.
+                  Este projeto aborda os desafios enfrentados por estudantes indígenas, especificamente da tribo Wai Wai , que migram de suas aldeias para a zona urbana de Oriximiná-PA, para estudar. Uma das maiores dificuldades é a barreira do idioma e a adaptação à língua portuguesa , o que frequentemente resulta em baixo aproveitamento acadêmico. Para mitigar esse problema, foi proposta a criação de um jogo sério , com o objetivo de usar a tecnologia para aperfeiçoar o aprendizado do português por parte desses alunos.
+
                 </p>
                 <p>
-                  No jogo, o jogador acompanha a história de Kesemani, um personagem indígena que se muda da aldeia
-                  para a cidade e enfrenta desafios de convivência e comunicação em ambientes urbanos. Através de diálogos,
-                  quizzes e missões, o usuário aprende expressões e vocabulários do português, simulando situações cotidianas
-                  em locais como mercados, escolas e repartições públicas. Essa abordagem lúdica e contextual torna o aprendizado
-                  mais acessível e significativo, especialmente para quem está em transição cultural.
+                  O jogo, intitulado "Wai" , possui um enredo focado no personagem Kesemani, um indígena Wai Wai que sai de sua aldeia rumo à "cidade grande" para estudar. A jogabilidade é baseada em diálogos que ocorrem enquanto Kesemani explora cenários urbanos, como mercados, escolas e praças. Ao final dessas interações, o jogador precisa responder a quizzes para poder avançar na jornada , aprendendo no processo palavras do cotidiano, gramática e formação de frases.
+
                 </p>
                 <p>
-                  Mais do que um jogo, o Wai representa uma ponte entre culturas — unindo o conhecimento ancestral dos povos 
-                  indígenas à tecnologia moderna. O projeto reforça o respeito à diversidade linguística e cultural da Amazônia,
-                  valorizando a identidade dos Wai Wai enquanto promove sua autonomia fora da aldeia. Dessa forma, a iniciativa 
-                  se consolida como um exemplo inspirador de como o design, a educação e a tecnologia podem caminhar juntos para 
-                  gerar transformação social.
+                  O projeto é o resultado de um Trabalho de Conclusão de Curso (TCC) do Bacharelado em Sistemas de Informação da UFOPA. Para seu desenvolvimento, foram utilizadas tecnologias como o motor de jogos Unity , a linguagem de programação C# , XML para armazenar os diálogos e ferramentas gráficas para a criação de personagens. Atualmente, o jogo já conta com quatro fases jogáveis, e estamos trabalhando ativamente para aprimorar a metodologia de transmissão dos conhecimentos da língua portuguesa de forma eficaz dentro da jogabilidade.
                 </p>
               </div>
 
@@ -71,50 +59,34 @@ Educação, tecnologia e inclusão linguística por meio da gamificação
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Wai%20Wai%20indigenous%20elders%20teaching%20traditional%20language%20to%20young%20people%20using%20digital%20tablets%20and%20traditional%20materials%2C%20intergenerational%20knowledge%20transfer%2C%20authentic%20indigenous%20setting%20with%20traditional%20crafts%20and%20decorations%2C%20warm%20community%20atmosphere%2C%20cultural%20preservation&width=600&height=400&seq=wai-wai-1&orientation=landscape"
+                     src="/public/wai1.jpg"
                       alt="Ensino da língua Wai Wai"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Ensino Tradicional</h4>
-                      <p className="text-sm text-gray-600">Anciãos transmitindo conhecimento linguístico</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Digital%20repository%20interface%20showing%20Wai%20Wai%20language%20materials%2C%20bilingual%20dictionary%20app%20on%20tablet%20screen%2C%20indigenous%20language%20learning%20platform%2C%20modern%20technology%20preserving%20traditional%20culture%2C%20user-friendly%20educational%20interface&width=600&height=400&seq=wai-wai-2&orientation=landscape"
+                      src="/public/wai2.jpg"
                       alt="Repositório digital"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Repositório Digital</h4>
-                      <p className="text-sm text-gray-600">Plataforma bilíngue Wai Wai-Português</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Bilingual%20street%20signs%20in%20Portuguese%20and%20Wai%20Wai%20language%20in%20public%20square%20in%20Amazon%20city%2C%20urban%20indigenous%20language%20visibility%2C%20cultural%20integration%20in%20city%20spaces%2C%20modern%20signage%20design%2C%20community%20pride%20and%20cultural%20recognition&width=600&height=400&seq=wai-wai-3&orientation=landscape"
+                      src="/public/wai3.jpg"
                       alt="Placas bilíngues"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Sinalização Urbana</h4>
-                      <p className="text-sm text-gray-600">Placas bilíngues em espaços públicos</p>
-                    </div>
                   </div>
 
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src="https://readdy.ai/api/search-image?query=Indigenous%20students%20using%20educational%20materials%20in%20Wai%20Wai%20language%2C%20classroom%20setting%20with%20traditional%20and%20modern%20learning%20tools%2C%20young%20people%20engaged%20in%20cultural%20learning%2C%20books%20and%20digital%20devices%2C%20educational%20empowerment&width=600&height=400&seq=wai-wai-4&orientation=landscape"
+                      src="/public/wai4.jpg"
                       alt="Material didático"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Materiais Didáticos</h4>
-                      <p className="text-sm text-gray-600">Recursos educacionais em língua Wai Wai</p>
-                    </div>
                   </div>
                 </div>
               </div>

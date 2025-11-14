@@ -63,50 +63,31 @@ export default function CienciaNaPraca() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="https://readdy.ai/api/search-image?query=University%20students%20and%20professors%20setting%20up%20scientific%20exhibition%20in%20public%20square%20in%20Amazon%20city%2C%20interactive%20displays%20about%20biodiversity%20conservation%2C%20families%20with%20children%20learning%20about%20science%2C%20outdoor%20educational%20event%2C%20tropical%20vegetation%20background%2C%20community%20engagement%2C%20bright%20daylight&width=600&height=400&seq=ciencia-praca-1&orientation=landscape"
-                      alt="Exposição científica na praça"
+                      src="/public/napraca.jpg"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Exposição Itinerante</h4>
-                      <p className="text-sm text-gray-600">Montagem de estandes científicos em praças públicas</p>
-                    </div>
                   </div>
                   
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="https://readdy.ai/api/search-image?query=Children%20and%20families%20interacting%20with%20scientific%20experiments%20and%20displays%20about%20Amazon%20biodiversity%2C%20microscopes%20and%20educational%20materials%2C%20community%20members%20learning%20about%20environmental%20conservation%2C%20outdoor%20science%20fair%20atmosphere%2C%20engaged%20participants&width=600&height=400&seq=ciencia-praca-2&orientation=landscape"
+                     src="/public/napraca1.jpg"
                       alt="Interação com a comunidade"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Interação Comunitária</h4>
-                      <p className="text-sm text-gray-600">Famílias participando de experimentos científicos</p>
-                    </div>
                   </div>
                   
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="https://readdy.ai/api/search-image?query=University%20professor%20giving%20educational%20presentation%20about%20Amazon%20rainforest%20conservation%20to%20diverse%20community%20audience%2C%20outdoor%20stage%20setup%2C%20people%20sitting%20and%20listening%20attentively%2C%20scientific%20posters%20and%20displays%20visible%2C%20educational%20outreach%20event&width=600&height=400&seq=ciencia-praca-3&orientation=landscape"
-                      alt="Palestra educativa"
+                      src="/public/napraca2.jpg"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Palestras Educativas</h4>
-                      <p className="text-sm text-gray-600">Docentes compartilhando conhecimento científico</p>
-                    </div>
                   </div>
                   
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img 
-                      src="https://readdy.ai/api/search-image?query=Traditional%20Amazon%20fair%20with%20scientific%20exhibition%20booth%2C%20local%20cultural%20event%20integration%2C%20community%20members%20of%20all%20ages%20exploring%20educational%20displays%20about%20biodiversity%2C%20festive%20atmosphere%20with%20traditional%20decorations%2C%20science%20meets%20culture&width=600&height=400&seq=ciencia-praca-4&orientation=landscape"
-                      alt="Presença em eventos culturais"
+                      src="/public/napraca3.jpg"
                       className="w-full h-64 object-cover object-top"
                     />
-                    <div className="p-4 bg-white">
-                      <h4 className="font-semibold text-[#0E4D2B]">Eventos Culturais</h4>
-                      <p className="text-sm text-gray-600">Participação na Feira Agropecuária e Círio</p>
-                    </div>
                   </div>
                 </div>
               </div>
