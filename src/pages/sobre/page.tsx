@@ -8,25 +8,25 @@ export default function Sobre() {
       nome: "Nara Maia",
       cargo: "Secretária Municipal da Juventude",
       descricao: "Liderança em políticas públicas para juventude.",
-      imagem: "/public/IMG_0848.JPG"
+      imagem: "/IMG_0848.JPG"
     },
     {
       nome: "Khalil Dias",
       cargo: "Colaborador do Projeto",
       descricao: "Especialista em desenvolvimento de Software.",
-      imagem: "/public/khalil.jpg"
+      imagem: "/khalil.jpg"
     },
     {
       nome: "Ellen Viana",
       cargo: "Colaboradora do Projeto",
       descricao: "Especialista em Experiência do Usuário.",
-      imagem: "/public/ellen.jpg"
+      imagem: "/ellen.jpg"
     },
     {
       nome: "Marcelo Souza",
       cargo: "Colaborador do Projeto",
       descricao: "Especialista em Desenvolvimento de Games.",
-      imagem: "/public/marcelo.jpg"
+      imagem: "/marcelo.jpg"
     }
   ];
 
@@ -99,7 +99,7 @@ export default function Sobre() {
       <section 
         className="relative py-24 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(16, 135, 60, 0.8), rgba(9, 66, 48, 0.8)), url("/public/IMG_9038.JPEG.jpg")`
+          backgroundImage: `linear-gradient(rgba(16, 135, 60, 0.8), rgba(9, 66, 48, 0.8)), url("/IMG_9038.JPEG.jpg")`
         }}
       >
         <div className="container mx-auto px-4 text-center text-white">
@@ -131,7 +131,7 @@ export default function Sobre() {
             </div>
             <div>
               <img 
-                src="/public/IMG_9038.JPEG.jpg"
+                src="/IMG_9038.JPEG.jpg"
                 alt="Infográfico sobre a SEMJU"
                 className="rounded-2xl shadow-lg w-full h-96 object-cover object-top"
               />
@@ -146,7 +146,7 @@ export default function Sobre() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/public/IMG_9059.JPEG.jpg"
+                src="/IMG_9059.JPEG.jpg"
                 alt="Juventudes diversas de Oriximiná"
                 className="rounded-2xl shadow-lg w-full h-96 object-cover object-top"
               />
@@ -186,7 +186,7 @@ export default function Sobre() {
             </div>
             <div>
               <img 
-                src="/public/IMG_3115.JPG"
+                src="/IMG_3115.JPG"
                 alt="Jovens oriximinaenses empoderados"
                 className="rounded-2xl shadow-lg w-full h-96 object-cover object-top"
               />
