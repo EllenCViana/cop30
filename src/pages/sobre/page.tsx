@@ -25,7 +25,7 @@ export default function Sobre() {
         {
       nome: "Igor Santos",
       cargo: "Colaboradora do Projeto",
-      descricao: "BiólogoEspecialista em Orquídeas.",
+      descricao: "Biólogo Especialista em Orquídeas.",
       imagem: "/igor.jpg"
     },
     {
